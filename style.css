@@ -732,22 +732,24 @@ textarea:focus{
         margin-top: 150px;
     }
 
-    .facilities{
-        height: 1800px;
-        flex-direction: column;
+    .about-foot {
+        margin-top: 480px;
     }
+}
 
-    .about-text{
-        flex-direction: column;
-    }
+@media screen and (max-width: 1350px) {
+    .facilities {
+            height: 1800px;
+            flex-direction: column;
+        }
 
+    .about-text {
+            flex-direction: column;
+        }
+    
     .about-image {
         width: 650px;
         height: 450px;
         order: -1;
-    }
-
-    .about-foot {
-        margin-top: 480px;
     }
 }

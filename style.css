@@ -752,4 +752,8 @@ textarea:focus{
         height: 450px;
         order: -1;
     }
+
+    .about-foot {
+        margin-top: 480px;
+    }
 }
